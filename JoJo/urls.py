@@ -16,11 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-import characters
+import character
 from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('characters/', include('characters.urls')),
+    path('character/', include('character.urls')),
     path('', views.index),
+    path('404', views.not_found_page)
 ]

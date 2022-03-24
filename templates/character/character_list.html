@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of characters</title>
+    <style>
+        .wrapper {
+            width: 1100px;
+            margin: 0 auto;
+            border-radius: 30px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <ol>
+        {% for url, name in names %}
+        <li>
+            <a href="{{ url }}">{{ name }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+</body>
+</html>

@@ -38,7 +38,8 @@ CHARACTER_INFORMATION = {
                        "an earlier trip to Egypt and is sent to kill Jotaro Kujo. After being freed from DIO's "
                        "influence, he decides to join Jotaro on his quest to Egypt to save Jotaro's mother and find "
                        "redemption",
-        "photo": "https://static.wikia.nocookie.net/jojo/images/9/9f/Kakyoin_Infobox_Anime.png/revision/latest/scale-to-width-down/400?cb=20211222072059&path-prefix=ru",
+        "photo": "https://static.wikia.nocookie.net/jojo/images/9/9f/Kakyoin_Infobox_Anime.png/revision/latest/scale"
+                 "-to-width-down/400?cb=20211222072059&path-prefix=ru",
         "stand": "Hierophant Green",
     }
 }
