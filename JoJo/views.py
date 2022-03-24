@@ -6,5 +6,5 @@ def index(request):
     return HttpResponse('Hello visitor! enter ')
 
 
-def not_found_page(request):
-    return render(request, 'character/page_not_found.html')
+def page_not_found_view(request, exception):
+    return render(request, 'character/page_not_found.html', status=404)

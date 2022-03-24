@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('character/', include('character.urls')),
     path('', views.index),
-    path('404', views.not_found_page)
 ]
+
+handler404 = "JoJo.views.page_not_found_view"
